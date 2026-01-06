@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">Psychotherapy logo</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f9d5dd" />
+      <stop offset="100%" stop-color="#f4a7b7" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="20" fill="url(#g)" />
+  <!-- Simple calming lotus-like shape -->
+  <g transform="translate(20,20) scale(0.67)" fill="#ffffff" opacity="0.95">
+    <path d="M40 14c6 12 20 18 20 18s-8 2-16 0-12-8-12-8 3-6 8-10z" />
+    <path d="M40 34c-6 12-20 18-20 18s8 2 16 0 12-8 12-8-3-6-8-10z" transform="translate(0,-6)" />
+    <ellipse cx="40" cy="44" rx="6" ry="3" />
+  </g>
+</svg>
