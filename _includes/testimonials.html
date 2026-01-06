@@ -1,0 +1,11 @@
+<section class="testimonials container">
+  <h3>What clients say</h3>
+  <div class="testimonial-list">
+    {% for t in site.data.testimonials %}
+      <blockquote class="testimonial">
+        <p>{{ t.quote }}</p>
+        <footer>— {{ t.author }}</footer>
+      </blockquote>
+    {% endfor %}
+  </div>
+</section>

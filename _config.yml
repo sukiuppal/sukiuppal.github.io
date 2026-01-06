@@ -1,10 +1,8 @@
-title: "Suki Uppal"
-description: "Personal homepage powered by Jekyll and GitHub Pages"
-baseurl: ""
-url: "https://sukiuppal.github.io"
+title: "Your Practice Name"
+email: "info@example.com"
+description: "Psychotherapy & Counselling — Central London"
+baseurl: "" # the subpath, e.g. /repo
+url: "https://sukiuppal.github.io" # change to your site URL
 theme: minima
-theme_color: "#f8c6d0"
-
-# Helpful for a non-technical editor:
-# - Edit index.md to change page content.
-# - If you want a blog later, create a _posts/ directory and add posts using the format YYYY-MM-DD-title.md.
+plugins: []
+markdown: kramdown

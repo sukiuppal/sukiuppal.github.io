@@ -1,37 +1,57 @@
 <!doctype html>
-<html lang="{{ site.lang | default: 'en' }}">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{{ page.title }}{% if page.title %} | {% endif %}{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  <style>
-    :root{--theme-color: {{ site.theme_color | default: "#f8c6d0" }};}
-  </style>
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a class="logo" href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/logo.svg' | relative_url }}" alt="Therapy logo" class="logo-img">
-      </a>
-      <div class="site-title-wrap">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <p class="site-description">{{ site.description }}</p>
-      </div>
-      <nav class="site-nav" aria-label="Main navigation">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/about.html' | relative_url }}">About</a>
-      </nav>
-    </div>
-  </header>
+  {% include header.html %}
 
-  <main class="site-main wrap">
-    {{ content }}
+  <main class="site-main">
+    <section class="hero" style="background-image: url('{{ page.hero_image | default: '/assets/images/hero.jpg' | relative_url }}')">
+      <div class="hero-inner">
+        <h1>{{ page.hero_title | default: site.title }}</h1>
+        {% if page.hero_subtitle %}<p class="lead">{{ page.hero_subtitle }}</p>{% endif %}
+        {% if page.hero_cta_text and page.hero_cta_link %}
+          <a class="btn btn-primary" href="{{ page.hero_cta_link }}">{{ page.hero_cta_text }}</a>
+        {% endif %}
+      </div>
+    </section>
+
+    <section class="container content-grid">
+      <article class="content">
+        {{ content }}
+      </article>
+
+      <aside class="sidebar">
+        <div class="contact-card">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+          <p>Phone: <a href="tel:+440000000000">+44 0000 000 000</a></p>
+          <a class="btn btn-secondary" href="/contact">Book a consultation</a>
+        </div>
+
+        {% include sidebar-widgets.html %}
+      </aside>
+    </section>
+
+    <section class="services-cta container">
+      <div class="services-grid">
+        {% for service in site.data.services %}
+        <div class="service-card">
+          <h4>{{ service.title }}</h4>
+          <p>{{ service.excerpt }}</p>
+          <a href="{{ service.url }}" class="read-more">Read more →</a>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    {% include testimonials.html %}
   </main>
 
-  <footer class="site-footer wrap">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} · Built with Jekyll</p>
-  </footer>
+  {% include footer.html %}
 </body>
 </html>

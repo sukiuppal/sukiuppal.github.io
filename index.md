@@ -1,45 +1,30 @@
 ---
 layout: default
+title: "Psychotherapy & Counselling — Central London"
+hero_title: "Compassionate Psychotherapy in Central London"
+hero_subtitle: "Short-term and long-term counselling, in-person and online."
+hero_cta_text: "Book a consultation"
+hero_cta_link: "/contact"
+hero_image: "/assets/images/hero.jpg"
 ---
 
-# Suki Uppal MD PhD PTO PPE CEO CTO COO, Psychotherapist
+Welcome. This site uses Markdown for content so you can edit pages quickly.
 
-I am an integrative psychotherapist offering a calm, confidential space for adults seeking support with anxiety, depression, trauma, and life transitions.
+## Core services
 
-I work collaboratively and at your pace, drawing on evidence-based approaches tailored to your individual needs.
+- Short-term therapy for immediate concerns
+- Long-term therapy for deeper work
+- Couples counselling
+- Online therapy sessions
 
----
+## How it works
 
-## Contact
+1. Initial consultation by phone or email.
+2. Introductory session to set goals.
+3. Ongoing sessions at a regular frequency.
 
-- **Email:** [suki@uppaltherapist.com](mailto:suki@uppaltherapist.com)
-- **Phone:** 0898 111222333
-- **Location:** Angel Islongton (in-person and online sessions available)
-
-Please feel free to get in touch to arrange an initial consultation or to ask any questions.
-
----
-
-## Qualifications & Professional Memberships
-
-- MSc Integrative Psychotherapy  
-- BA (Hons) Psychology  
-- Accredited Member, BACP  
-- Registered with UKCP  
-
-I engage in regular clinical supervision and ongoing professional development.
-
----
-
-## Areas of Interest
-
-- Anxiety and panic
-- Depression and low mood
-- Trauma and PTSD
-- Relationship difficulties
-- Identity, self-esteem, and personal growth
-- Stress related to work and life transitions
-
----
-
-*This website is intended to provide general information and does not replace professional medical advice.*
+<!-- Example: include a testimonial excerpt -->
+<section class="home-testimonial">
+> "A supportive space where I felt heard and understood."
+> — previous client
+</section>
