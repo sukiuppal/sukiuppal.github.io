@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Jane Doe, Psychotherapist
+# Suki Uppal MD PhD PTO PPE CEO CTO COO, Psychotherapist
 
 I am an integrative psychotherapist offering a calm, confidential space for adults seeking support with anxiety, depression, trauma, and life transitions.
 
@@ -12,9 +12,9 @@ I work collaboratively and at your pace, drawing on evidence-based approaches ta
 
 ## Contact
 
-- **Email:** [jane@example.com](mailto:jane@example.com)
-- **Phone:** 07123 456789
-- **Location:** London (in-person and online sessions available)
+- **Email:** [suki@uppaltherapist.com](mailto:suki@uppaltherapist.com)
+- **Phone:** 0898 111222333
+- **Location:** Angel Islongton (in-person and online sessions available)
 
 Please feel free to get in touch to arrange an initial consultation or to ask any questions.
 
