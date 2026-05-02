@@ -10,7 +10,7 @@
   {% include header.html %}
 
   <main class="site-main">
-    <section class="hero" style="background-image: url('{{ page.hero_image | default: '/assets/images/hero.jpg' | relative_url }}')">
+    <section class="hero">
       <div class="hero-inner">
         <h1>{{ page.hero_title | default: site.title }}</h1>
         {% if page.hero_subtitle %}<p class="lead">{{ page.hero_subtitle }}</p>{% endif %}

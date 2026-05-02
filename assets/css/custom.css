@@ -1,10 +1,10 @@
-/* Custom soft-pink theme styles for the site */
+/* Japandi theme */
 :root{
-  --theme-color: #f8c6d0;
-  --accent: #f4a7b7;
-  --text: #333333;
-  --muted: #666666;
-  --bg: #ffffff;
+  --theme-color: #d4957a; /* muted terracotta */
+  --accent: #c4694a;
+  --text: #2a1e10;
+  --muted: #9a8a78;
+  --bg: #f0ece4;
 }
 
 body{
@@ -27,7 +27,7 @@ body{
 .site-nav a:hover{ text-decoration:underline; }
 
 .site-main{ padding:2rem 0; }
-.site-main h1{ color:#b24b64; }
+.site-main h1{ color:#8a9898; }
 .site-main a{ color:var(--accent); }
 
-.site-footer{ text-align:center; color:var(--muted); padding:2rem 0; border-top:1px solid #f0e6e9; }
+.site-footer{ text-align:center; color:var(--muted); padding:2rem 0; border-top:0.5px solid #f0c4a8; }
